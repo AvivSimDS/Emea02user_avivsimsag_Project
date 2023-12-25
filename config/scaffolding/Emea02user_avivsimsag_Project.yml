@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/AvivSimDS/Emea02user_avivsimsag_Project
   gitUsername: AvivSimDS
   gitBranch: main
+services:
+- serviceName: project.emea02user_avivsimsag_.integrations:ProduceNameRecord
+  packages:
+  - name: Emea02user_avivsimsag_Project
+    version: "1.0"
